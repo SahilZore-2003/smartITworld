@@ -489,12 +489,12 @@ footer h2 {
 
 @media (max-width:600px){
   footer h2 {
-    font-size: .5rem;
+    font-size: 1rem;
   }
 
   .icons i {
     font-size: 1rem;
-    padding: .2rem;
+    
     color: rgb(255, 255, 255);
   
   }
