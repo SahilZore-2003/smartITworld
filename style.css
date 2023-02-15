@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 .light {
   --mainColor: #64bcf4;
   --hoverColor: #5bacdf;
@@ -277,6 +279,7 @@ header .container {
   0% {
     clip-path: circle(30% at -25% -25%);
   }
+
   100% {
     clip-path: circle(150% at 0 0);
   }
@@ -395,45 +398,47 @@ header .container {
 }
 
 /* new css  */
-.flex{
-  display: flex; 
+.flex {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.flex-col{
-   display: flex; 
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.project__img{
+.project__img {
   width: 200px;
   height: 200px;
 }
 
-.first__project{
-  margin:20px 10px;
+.first__project {
+  margin: 20px 10px;
   border-radius: 10px;
   border: 2px solid var(--mainColor);
 }
 
-.link{
+.link {
   font-weight: bold;
   cursor: pointer;
   font-size: 25px;
 }
-.first__project h4{
+
+.first__project h4 {
   text-align: center;
 }
 
-i{
+i {
   padding: 5px;
 }
 
 
 /* footer  */
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -447,7 +452,8 @@ footer{
   background-color: #5bacdf;
   color: #fff;
 }
-.icons{
+
+.icons {
   position: relative;
   display: flex;
   align-items: center;
@@ -457,25 +463,39 @@ footer{
   padding: 1rem;
 }
 
-.icons i{
+.icons i {
   font-size: 2rem;
   padding: .5rem;
   color: rgb(255, 255, 255);
- 
-}
-
-
-#message{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
 
 }
-footer h2{
+
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+footer h2 {
   font-size: 1rem;
 }
 
-.hide{
+.hide {
   display: none;
+}
+
+@media (max-width:600px){
+  footer h2 {
+    font-size: .5rem;
+  }
+
+  .icons i {
+    font-size: 1rem;
+    padding: .2rem;
+    color: rgb(255, 255, 255);
+  
+  }
 }
