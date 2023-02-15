@@ -476,3 +476,15 @@ transform: translate(-50%,-50%);
 .hide{
   display: none;
 }
+
+@media (min-width:700px){
+  .icons i{
+    font-size: 2rem;
+    padding: .5rem;
+    color: rgb(255, 255, 255);
+   
+  }
+  footer h2{
+    font-size: 1rem;
+  }
+}
